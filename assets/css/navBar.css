@@ -1,0 +1,53 @@
+.navbar {
+    border-bottom: 1px solid #575757;
+    height: 70px;
+    z-index: 890;
+    background-color: transparent;
+}
+
+.about-header {
+    color: #fff;
+    padding: 120px 0 120px 0;
+   
+}
+
+.about-header p {
+    font-family: open sans,Helvetica,Arial,sans-serif;
+    font-size: 22px;
+}
+
+.about-header h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+.navbar .nav-link {
+    font-family: "Poppins", Arial, sans-serif;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    font-weight: 500!important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 100%;
+    font-size: 14px;
+}
+
+.hero-wrap {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: #000000;
+}
