@@ -1,0 +1,88 @@
+footer {
+    margin-top:-1px;
+    padding: 50px 0px 100px 0px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 10px;
+    position: relative;
+    background-image: linear-gradient(to bottom, #35ba52, #34b851);
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+
+footer h4 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.before-footer {
+	padding: 0;
+	position: relative;
+	z-index: 99;
+	margin-bottom: -50px;
+	margin-top: -250px;
+}
+
+footer .container {
+	padding-top: 25	px;
+	position: relative;
+	z-index: 2;
+}
+
+footer h4 {
+	font-size: 12px;
+}
+footer p {
+	color: rgba(255, 255, 255, 0.75);
+	text-transform: none;
+	letter-spacing: .5px;
+	font-size: 12px;
+	font-weight: 300;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	list-style: none;
+}
+footer a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 2px;
+}
+
+footer a:hover {
+	color: rgba(255,255,255,.6);
+	text-decoration: none;
+}
+footer ul li a {
+	border-bottom: none;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.82);
+	letter-spacing: 1px;
+	text-transform: none;
+	font-size: 12px;
+}
+footer ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+p, ul:not(.list-unstyled), ol {
+    line-height: 28px;
+}
+
+.brandName {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase!important;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
