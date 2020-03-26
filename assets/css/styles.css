@@ -147,3 +147,10 @@ section .lead {
     border-color: #35ba52!important;
     background-color: #35ba52!important;
 }
+
+.scrollable {
+	height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+

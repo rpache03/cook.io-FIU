@@ -42,3 +42,20 @@ var options = {
 };
 
 var typed = new Typed('.element', options);
+
+//for shopping cart quantity values
+$(document).ready(function(){
+	$('.quantity').prop('disabled', true);
+	   	$(document).on('click','.plus',function(){
+			$('.quantity').val(parseInt($('.quantity').val()) + 1 );
+		});
+	$(document).on('click','.minus',function(){
+		$('.quantity').val(parseInt($('.quantity').val()) - 1 );
+			if ($('.quantity').val() == 0) {
+				$('.quantity').val(1); //placeholder, needs to remove item from cart
+			}
+		});
+ });
+//function increaseQuantity() {
+//	$('.quantity').val(parseInt($('.quantity').val()) + 1 );
+//}

@@ -20,8 +20,11 @@
         
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+		<i class="fas fa-plus"></i>
+		<i class="fas fa-minus"></i>
 	</head>
+
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light py-3">
             <div class="container"><a href="/logged-in/" class="navbar-brand d-flex align-items-center"><img src='/assets/img/img3.jpg' height="40"/></a>
@@ -38,12 +41,86 @@
           </nav>
 
 
-		  <div class="about-header hero-wrap hero-wrap-2" style="background-image: url('/assets/img/loggedInHome3.jpg');">
+		<div class="about-header hero-wrap hero-wrap-2" style="background-image: url('/assets/img/loggedInHome3.jpg');">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-end justify-content-center">
 					<div class="col-md-9 ftco-animate text-center fadeInUp ftco-animated">
-						<h1 class="mb-1 bread">Account</h1>
+						<h1 class="mb-1 bread">Welcome, (User Name)!</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row pt-md-5">
+				<div class="col-md-6">
+					<div class="row ">
+						<div class = "col ml-md-5 py-md-4">
+							<a href="/MyAccount/update-credentials/"><h1>Change Email/Password</h1></a>
+						</div>
+					</div>
+						<div class="row">
+							<div class = "col ml-md-5 py-md-4">
+								<a href="/MyAccount/diet-settings"><h1>Dietary Restriction Settings</h1></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class = "col ml-md-5 py-md-4">
+								<a href="/MyAccount/my-recipes/"><h1>Manage My Recipes</h1></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class = "col ml-md-5 py-md-4">
+								<a href="/MyAccount/saved-recipes/"><h1>Saved Recipes</h1></a>
+							</div>
+						</div>
+				</div>
+				<div class="col-md-6 py-md-4">
+					<!-- Need to connect the shopping cart here to display a scrolling list -->
+					<!--					<div class="col-md-2">
+													<div class="row">
+														<input type="number" name="quantity" size="2" min="1" >
+													</div>
+													<div class="row">
+														<button class="btn btn-light btn-link active">update quantity</button>
+													</div>
+												</div>
+												<div class="col-2 align-self-right m-0">
+													<button class="btn btn-danger active float-right p-0 m-0" style="width:100%; height:100%; border-radius: 0;">remove</button>
+												</div>-->
+					<div class="card">
+						<div class="card-body">
+							<h1 class="card-title">Shopping Cart</h1>
+							<div class="scrollable">
+								<ul class="list-group">
+									<li class="list-group-item p-0">
+										<div class="row">
+											<div class="col p-3 ml-3">
+											<a href="#">Food Item</a>
+												<div class="row ml-4">
+													Price
+												</div>
+											</div>
+										<div class="col-md-4 align-self-center">
+												<div class="input-group h-100 align-items-center">
+													<span class="input-group-btn">
+														<button type="button" class="btn btn-danger active px-3 minus" style="border-bottom-right-radius:0; border-top-right-radius: 0;" >
+															<span class="fas fa-minus"></span>
+														</button>
+													</span>
+													<input type="number" class="form-control quantity" value="1" min="1" max="100" width="100px" readonly>
+													<span class="input-group-btn">
+														<button type="button" class="btn btn-success px-3 plus" style="border-bottom-left-radius: 0; border-top-left-radius: 0;">
+															<span class="fas fa-plus"></span>
+														</button>
+													</span>
+												</div>
+											</div>
+										</div>											
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -63,9 +140,9 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="assets/js/granim.min.js"></script>
+		<script src="/assets/js/granim.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 		<script src="https://kit.fontawesome.com/7c6a04c2a0.js"></script>
-		<script src="assets/js/scripts.js"></script>
+		<script src="/assets/js/scripts.js"></script>
 	</body>
 </html>
