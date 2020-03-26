@@ -55,6 +55,7 @@
   }
   
   .form-label-group>label {
+    cursor: text;
     position: absolute;
     top: 0;
     left: 0;
