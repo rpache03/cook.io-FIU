@@ -75,20 +75,9 @@
 							</div>
 						</div>
 				</div>
+				<!-- Needs JS to dynamically generate new items in the cart when items are added to it -->
 				<div class="col-md-6 py-md-4">
-					<!-- Need to connect the shopping cart here to display a scrolling list -->
-					<!--					<div class="col-md-2">
-													<div class="row">
-														<input type="number" name="quantity" size="2" min="1" >
-													</div>
-													<div class="row">
-														<button class="btn btn-light btn-link active">update quantity</button>
-													</div>
-												</div>
-												<div class="col-2 align-self-right m-0">
-													<button class="btn btn-danger active float-right p-0 m-0" style="width:100%; height:100%; border-radius: 0;">remove</button>
-												</div>-->
-					<div class="card">
+					<div class="card"> 
 						<div class="card-body">
 							<h1 class="card-title">Shopping Cart</h1>
 							<div class="scrollable">
@@ -98,17 +87,17 @@
 											<div class="col p-3 ml-3">
 											<a href="#">Food Item</a>
 												<div class="row ml-4">
-													Price
+													Price <!-- Price needs to be pulled from source, then multiplied by .quantity.val() -->
 												</div>
 											</div>
 										<div class="col-md-4 align-self-center">
 												<div class="input-group h-100 align-items-center">
-													<span class="input-group-btn">
+													<span class="input-group-btn"> <!-- The JS to make this counter operate needs to be tested, could not figure out how -->
 														<button type="button" class="btn btn-danger active px-3 minus" style="border-bottom-right-radius:0; border-top-right-radius: 0;" >
 															<span class="fas fa-minus"></span>
 														</button>
 													</span>
-													<input type="number" class="form-control quantity" value="1" min="1" max="100" width="100px" readonly>
+													<input type="number" class="form-control quantity" value="1" min="1" max="100" width="100px" readonly> 
 													<span class="input-group-btn">
 														<button type="button" class="btn btn-success px-3 plus" style="border-bottom-left-radius: 0; border-top-left-radius: 0;">
 															<span class="fas fa-plus"></span>
