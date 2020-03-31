@@ -637,7 +637,7 @@ section .lead {
 }
 
 .myaccount-content img {
-	margin-left: 17%;
+	margin-left: 7%;
 	max-width: 60vh;
 	margin-bottom: 200px;
 }
@@ -645,6 +645,12 @@ section .lead {
 .currently-empty {
 	margin-top: 70px;
 	margin-bottom: 50px;
+}
+
+.flex-column-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .avatar-container {
