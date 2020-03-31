@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        
+        <link href="../../assets/img/icon.png" rel="shortcut icon" />
+
+        <title>Recipe - Cook.io</title>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="../../../assets/css/styles.css">
+        <link rel="stylesheet" href="../../../assets/css/footer.css" />
+        <link rel="stylesheet" href="../../../assets/css/navBar.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link
+		href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+		rel="stylesheet"
+	/>
+	<link
+		href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap"
+		rel="stylesheet"
+	/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light py-3">
+			<div class="container"><a href="../index.html" class="navbar-brand d-flex align-items-center"><img src='../../../assets/img/img3.jpg' height="40"/></a>
+				<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+				<div id="navbarSupportedContent" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="../../recipe/index.html" class="nav-link"> Recipes </a></li>
+					<li class="nav-item active"><a href="../../login/index.html" class="nav-link"> Log In </a></li>
+					<li class="nav-item active"><a href="../../register/index.html" class="nav-link"> Register</a></li>
+				</ul>
+				</div>
+			</div>
+		</nav>
+	  
+
+
+		<div class="about-header hero-wrap hero-wrap-2" style="background-image: url('../../../assets/img/loggedInHome4.jpg');">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-end justify-content-center">
+					<div class="col-md-9 ftco-animate text-center fadeInUp ftco-animated">
+						<h1 class="mb-1 bread">Recipes</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class='recipe-container'>
+			<div class="form-group" style='margin-top: -3%; margin-bottom: 2%;'>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Search..." >
+			</div>
+
+			<div class='filter-selection-row'>
+				<a href="../top.html">
+					Top Recipes
+				</a>
+				<a href="../random.html">
+					Random Recipes
+				</a>
+				<a href="../bymeal/bymeal.html">
+					By Meal
+				</a>
+				<a style="background-color: #f0f0f0;">
+					By Ingredient
+				</a>
+            </div>
+            
+            <div class='ingredient-content-container'>
+				<div class='ingredient-button-container'>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Potatoes </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Beef </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Onions </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Pork </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Salmon </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Cod </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Parsley </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Flour </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Eggs </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Bread </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Tomatoes </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Cucumbers </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Romaine </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Yogurt </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Oates </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Sugar </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Lamb </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Dill </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Pickles </button>
+                        <button type='button' class='btn btn-outline-dark ingredient-button' > Carrots </button>
+                        
+                        <!-- Repeat -->
+
+                        <button type='button' class='btn btn-outline-dark ingredient-button' > Potatoes </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Beef </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Onions </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Pork </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Salmon </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Cod </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Parsley </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Flour </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Eggs </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Bread </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Tomatoes </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Cucumbers </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Romaine </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Yogurt </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Oates </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Sugar </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Lamb </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Dill </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Pickles </button>
+                        <button type='button' class='btn btn-outline-dark ingredient-button' > Carrots </button>
+                        
+                        <!-- Reapeat -->
+
+                        <button type='button' class='btn btn-outline-dark ingredient-button' > Potatoes </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Beef </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Onions </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Pork </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Salmon </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Cod </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Parsley </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Flour </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Eggs </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Bread </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Tomatoes </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Cucumbers </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Romaine </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Yogurt </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Oates </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Sugar </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Lamb </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Dill </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Pickles </button>
+						<button type='button' class='btn btn-outline-dark ingredient-button' > Carrots </button>
+				</div>
+				<div id='circle-cont' class='ingredients-logo'>
+					<img id='semicircle' src='../../../assets/img/img1.png' alt='' />
+				</div>
+			</div>
+            <br>
+		</div>
+		
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="assets/js/granim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+		<script src="https://kit.fontawesome.com/7c6a04c2a0.js"></script>
+		<script src="assets/js/scripts.js"></script>
+	</body>
+</html>
