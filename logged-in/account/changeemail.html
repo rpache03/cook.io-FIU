@@ -54,20 +54,20 @@
 			<div class='myaccount-top-bar'>
 				<h1 class='display-4'>My Account</h1>
 				<div class='avatar-container'>
-					<img
-						src='../../assets/img/img5.png'
-						alt=''
-						id='my-account-avatar'
-					/>
+                    <img
+                    src='../../assets/img/img5.png'
+                    alt=''
+                    id='my-account-avatar'
+                />
 				</div>
 			</div>
 			<hr />
 			<div class='myaccount-content-container'>
 				<div class='myaccount-sidebar'>
-					<a>
+					<a href='./index.html'>
 						<button
 							type='button'
-							class='btn btn-dark btn-block'
+							class='btn btn-light btn-block'
 						>
 							<h3>My Dashboard</h3>
 						</button>
@@ -118,7 +118,7 @@
 					<a href='./changeemail.html'>
 						<button
 							type='button'
-							class='btn btn-light btn-block'
+							class='btn btn-dark btn-block'
 						>
 							<h3>Change Email</h3>
 						</button>
@@ -126,8 +126,20 @@
 				</div>
 				<div class='myaccount-content container'>
 					<h1 class='display-4 center-text'>
-						Recommended Recipes
-					</h1>
+						Change Email
+                    </h1>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Old Email:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">New Email:</label>
+                        <input type="email" class="form-control" id="exampleInputPassword1">
+                      </div>
+                        <a href="./success.html">
+                      <button type="submit" class="btn btn-primary">Submit</button></a>
+             
 				</div>
 			</div>
 		</div>
