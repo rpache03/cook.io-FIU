@@ -1,6 +1,6 @@
 # Cook.io
 A UI/UX project.
- 
+
 # Problem Statement 
 Aging, poorly optimized, and generic blog post style of popular recipe websites make them unapproachable to younger people, deterring them from cooking great meals at home. These blog post style websites do not deliver a clear and easy approach to individuals looking to innovate, learn how to cook or expand their cooking knowledge. 
 
@@ -33,7 +33,4 @@ Allows users to browse for cooking recipes. Choose recipe by meal. Add their own
 - Rate any recipe.  
 ## Shopping Cart
 - Create a shopping cart based on the recipes you have saved.  
- 
-# What is done
-- Boilerplate created.  
-- Design done.
+
